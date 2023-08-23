@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+body {
+    background: azure;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Header {
+    height: 300px;
+    display: flex;
+}
+
+.Header-Logo {
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    padding: 20px 20px;
+}
+
+
+
+.Header-Logo p {
+    color: #088884;
+}
+
+.Header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.Header-buttons a {
+    width: 150px;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 700;
+    color: black;
+}
+
+.Form {
+
+    width: 90px;
+    display: flex;
+
+    flex-direction: row;
+}

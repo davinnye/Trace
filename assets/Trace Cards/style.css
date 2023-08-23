@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+
+body {
+    background: aliceblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-wrapper {
+    width: 360px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: aliceblue;
+    margin: 0 14px;
+    padding-bottom: 15px;
+}
+
+.card-header {
+    background-color: #088884;
+    padding: 60px 40px;
+}
+
+.pic{
+    display:inline-block;
+    padding: 5px;
+}
+
+.pic img{
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-top: -50px;
+}
+
+.name{
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: bold 500;
+    margin: 5px 0px;
+}
+
+.title {
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: bold 400;
+    margin-bottom: 3px;
+}
+
+.expertise {
+    font-size: 16px;
+    color: lavender;
+    font-weight: bold 400;
+}
+
+.buttons .features {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li{
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #088884;
+    list-style-type: none;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgb(117, 117, 240);
+    transition: all 0.3s ease;
+}
+
+.features ul li a {
+    color: inherit
+}
+
+ul li:is(:hover, .active) {
+    color: #fff;
+    background-color: rgb(161, 172, 236);
+}
+
+.contact-btn {
+    color: #088884;
+    display: inline-block;
+    padding: 7px 50px;
+    border: 2px solid #5372f0;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .3s linear;
+    justify-content: center;
+    background-color: aliceblue;
+    font-weight: 700;
+}
+
+.contact-btn:hover {
+    background-color: #22a5a1;
+    color: #f2f2f2;
+}
