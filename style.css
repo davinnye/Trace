@@ -10,19 +10,19 @@
 
 body {
     background: azure;
-    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.Header {
-    height: 300px;
+#Header {
+    height: 250px;
     display: flex;
 }
 
-.Header-Logo {
-    
+#Header-Logo {
+
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ body {
 
 
 
-.Header-Logo p {
+#Header-Logo p {
     color: #088884;
 }
 
@@ -42,7 +42,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 20px 20px 20px;
-    
+
 }
 
 .Header-buttons a {
@@ -61,4 +61,68 @@ body {
     display: flex;
 
     flex-direction: row;
+}
+
+#Content {
+    box-sizing: border-box;
+    padding: auto;
+    height: 80%;
+    width: 80%;
+
+
+}
+
+
+.Post {
+    box-sizing: border-box;
+}
+
+.Title {
+    color: #088884;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Subtitle {
+    color: #000;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Text {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 681px;
+    height: 201px;
+    flex-shrink: 0;
+
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+.img {
+    width: 40%;
+    height: auto;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+.banner-projeto {
+    width: 100%;
+    height: auto;
 }
