@@ -37,30 +37,56 @@ body {
     color: #088884;
 }
 
-.Header-buttons {
+.Header-buttons{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 20px 20px 20px 20px;
-
 }
 
-.Header-buttons a {
-    width: 150px;
-    height: 43px;
+.Header-UL{
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    font-size: large;
+    gap: 30px;
+}
+
+.Header-UL-LI{
+    list-style: none;
+}
+
+.Header-UL-LI-A{
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
     font-weight: 700;
-    color: black;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
-.Form {
+.Form{
+    margin-top: 0.5em;
+}
 
-    width: 90px;
+form{
+    color: #555;
     display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
 
-    flex-direction: row;
+input[type="search"]{
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+  
+input[type="search"]::placeholder {
+    color: #bbb;
 }
 
 #Content {

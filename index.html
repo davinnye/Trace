@@ -12,6 +12,9 @@
 </head>
 
 <body>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
   <section id="Header">
     <div class="Header-Logo">
       <img src="assets/TrAce.svg" alt="Logo do TrAce" />
@@ -19,25 +22,25 @@
     </div>
 
     <div class="Header-buttons">
-      <a href="index.html">INÍCIO</a>
-      <a href="assets/Trace Cards/index.html">TRACE</a>
-      <a href="">PROJETOS</a>
-      <a href="">TRABALHOS</a>
-      <a href="">CONTATO</a>
+      <ul class="Header-UL">
+        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="index.html">INÍCIO</a></li>
+        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="assets/Trace Cards/index.html">TRACE</a></li>
+        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">PROJETOS</a></li>
+        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">TRABALHOS</a></li>
+        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">CONTATO</a></li>
+    </ul>
     </div>
 
     <div class="Form">
       <form>
-        <input placeholder="Pesquisar" />
-        <button>
-          <img src="assets/Form.svg" alt="Ícone de Lupa" />
-        </button>
+        <input type="search" placeholder="Search...">
+        <button type="submit">Search</button>
       </form>
     </div>
   </section>
 
   <section id="Banners">
-    <img class="banner" src="assets/Banner1.png" class="banner-projeto" alt="Banner" />
+    <img class="banner" src="assets/Banner1.png" class="banner-projeto" alt="Banner 'Conheça nossos projetos'" />
   </section>
 
   <section id="Content">
@@ -51,17 +54,16 @@
       </div>
       <div class="Text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Neste projeto desenvolvido em conjunto com o grupo PRO.SOM (Tradução, Processo de Criação e Mídias Sonoras) nós visamos publicar, 
+          gratuitamente, um livro multiformato impresso. Dentro desse livro haverá um QR code que vai levar a um videolivro com recursos como narração, AD, legendas LSE e janela de Libras,
+           de modo a atender o vasto grupo de pessoas com dificuldade para acessar material impresso tradicional, como, por exemplo, pessoas com dislexia ou com algum tipo de deficiência. 
+           O Prince Lindworm é um conto do século XIX é originalmente norueguês e não possui direitos autorais. 
+           O conto foi traduzido para o inglês por Svend Grundtvig e nós traduzimos para o português. 
+           Porém, a história conta com duas versões: enquanto uma tradução está mais próxima do texto-fonte, a outra tradução foi adaptada para o formato de Leitura Fácil (Easy Read).
         </p>
       </div>
       <div class="img">
-        <img src="assets/Projeto1.png" class="banner-projeto" alt="Foto do projeto" />
+        <img src="assets/Projeto1.png" class="banner-projeto" alt="Banner do projeto “O Príncipe Lindworm”" />
       </div>
     </div>
     <div class="Post">
@@ -70,23 +72,22 @@
       </div>
       <div class="Text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Considerando a escassez de estudos voltados para a audiodescrição (AD) de sinais em Língua Brasileira de Sinais (Libras), 
+          este projeto foi criado pelo grupo de pesquisa Tradução e Acessibilidade (TrAce) a fim de investigar o processo de AD de três categorias de sinais da Libras: 
+          sinais icônicos, sinais comuns e sinais complexos, para assim propor orientações que auxiliem na escrita de ADs que atendam às necessidades de pessoas cegas e com baixa visão. 
+          Contando com o suporte teórico da Tradução Audiovisual Acessível, da Tradução Centrada no Usuário e da Teoria do Escopo de Vermeer, roteiros de AD têm sido construídos e submetidos 
+          à análise de intérpretes de Libras e consultores com deficiência visual para a validação dos parâmetros utilizados. 
+          A organização criteriosa dos elementos no roteiro, o emprego de comparações, o uso dos cinco parâmetros da Libras para nortear a AD, entre outras estratégias adotadas estão colaborando para a elaboração das audiodescrições.
         </p>
       </div>
       <div class="img">
-        <img src="assets/Projeto2.png" class="banner-projeto" alt="Foto do projeto" />
+        <img src="assets/Projeto2.png" class="banner-projeto" alt="Banner do projeto “AD de Libras”" />
       </div>
     </div>
 
   </section>
 
-  <div id="Footer"></div>
+  <section id="Footer"></section>
 </body>
 
 </html>
