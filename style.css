@@ -110,6 +110,8 @@ input[type="search"]::placeholder {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .Subtitle {
@@ -128,27 +130,30 @@ input[type="search"]::placeholder {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 681px;
-    height: 201px;
-    flex-shrink: 0;
+    width: 50%;
 
+}
+
+.Projects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    align-items: center;
 }
 
 .banner {
     width: 100%;
     height: auto;
-    flex-shrink: 0;
     background: #D9D9D9;
 }
 
 .img {
-    width: 40%;
-    height: auto;
-    flex-shrink: 0;
     background: #D9D9D9;
+    width: 40%;
+    
 }
 
 .banner-projeto {
     width: 100%;
-    height: auto;
+    
 }
