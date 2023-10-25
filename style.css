@@ -157,3 +157,72 @@ input[type="search"]::placeholder {
     width: 100%;
     
 }
+
+#Footer{
+    width: 100%;
+    background-color: #088884;
+}
+
+.Footer-Titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.Footer-texts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2em;
+}
+
+
+
+.Footer-text {
+    width: 20%;
+    
+}
+
+.Footer-text-2 {
+    width: 30%;
+}
+
+.Footer-text-3 {
+    width: 20%;
+}
+.Footer-UL-LI{
+    list-style: none;
+}
+
+.Footer-UL-LI-A{
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+#Sub-footer{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+}
+.sub-footer-logo{
+    width: 20%;
+    height: 20%;
+}
