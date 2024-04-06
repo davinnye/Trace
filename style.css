@@ -98,6 +98,16 @@ input[type="search"]::placeholder {
 
 }
 
+#Members {
+    box-sizing: border-box;
+    padding: auto;
+    height: 80%;
+    width: 80%;
+
+
+}
+
+
 
 .Post {
     box-sizing: border-box;
