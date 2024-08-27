@@ -6,14 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-members.css" />
   <script src="https://kit.fontawesome.com/8492e63a54.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
   <title>TrAce</title>
 </head>
 
 <body>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
   <section id="Header">
     <div class="Header-Logo">
@@ -24,11 +26,35 @@
     <div class="Header-buttons">
       <ul class="Header-UL">
         <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="index.html">INÍCIO</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="members.html">TRACE</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">PROJETOS</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">TRABALHOS</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Sobre Nós</a>
+    <div class="dropdown-content">
+      <a class="Header-UL-LI-A" href="quem-somos.html">Quem Somos</a>
+      <a class="Header-UL-LI-A" href="members.html">MEMBROS</a>
+    </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">PROJETOS</a>
+    <div class="dropdown-content">
+      <a class="Header-UL-LI-A" href="projetos-livro-1.html">O Príncipe Lindworm</a>
+      <a class="Header-UL-LI-A" href="projetos-livro-2.html">Livro 2</a>
+      <a class="Header-UL-LI-A" href="">AD de Libras</a>
+      <a class="Header-UL-LI-A" href="">Site</a>
+    </div>
+        </li>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">PRODUÇÕES</a>
+  <div class="dropdown-content">
+    <a class="Header-UL-LI-A" href="">ARTIGOS</a>
+    <a class="Header-UL-LI-A" href="">LIVROS</a>
+    <a class="Header-UL-LI-A" href="">TCCS</a>
+    <a class="Header-UL-LI-A" href="">DISSERTAÇÕES</a>
+    <a class="Header-UL-LI-A" href="">TESES</a>
+  </div>
+      </li>
         <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">CONTATO</a></li>
-    </ul>
+      </ul>
     </div>
 
     <div class="Form">
@@ -52,45 +78,56 @@
       <div class="Subtitle">
         <h2>Livro Multiformato</h2>
       </div>
-    <div class ="Projects">
-      <div class="img">
-        <img src="assets/Projeto1.png" class="banner-projeto" alt="Banner do projeto “O Príncipe Lindworm”" />
-      </div>
-      <div class="Text">
-        <p>
-          Neste projeto desenvolvido em conjunto com o grupo PRO.SOM (Tradução, Processo de Criação e Mídias Sonoras) nós visamos publicar, 
-          gratuitamente, um livro multiformato impresso. Dentro desse livro haverá um QR code que vai levar a um videolivro com recursos como narração, AD, legendas LSE e janela de Libras,
-           de modo a atender o vasto grupo de pessoas com dificuldade para acessar material impresso tradicional, como, por exemplo, pessoas com dislexia ou com algum tipo de deficiência. 
-           O Prince Lindworm é um conto do século XIX é originalmente norueguês e não possui direitos autorais. 
-           O conto foi traduzido para o inglês por Svend Grundtvig e nós traduzimos para o português. 
-           Porém, a história conta com duas versões: enquanto uma tradução está mais próxima do texto-fonte, a outra tradução foi adaptada para o formato de Leitura Fácil (Easy Read).
-        </p>
-      </div>
-      
-    </div>
-
-
-    <div class="Post">
-      <div class="Subtitle">
-        <h2>AD de Libras</h2>
-      </div>
       <div class="Projects">
         <div class="img">
-          <img src="assets/Projeto2.png" class="banner-projeto" alt="Banner do projeto “AD de Libras”" />
+          <img src="assets/Projeto1.png" class="banner-projeto" alt="Banner do projeto “O Príncipe Lindworm”" />
         </div>
-      <div class="Text">
-        <p>
-          Considerando a escassez de estudos voltados para a audiodescrição (AD) de sinais em Língua Brasileira de Sinais (Libras), 
-          este projeto foi criado pelo grupo de pesquisa Tradução e Acessibilidade (TrAce) a fim de investigar o processo de AD de três categorias de sinais da Libras: 
-          sinais icônicos, sinais comuns e sinais complexos, para assim propor orientações que auxiliem na escrita de ADs que atendam às necessidades de pessoas cegas e com baixa visão. 
-          Contando com o suporte teórico da Tradução Audiovisual Acessível, da Tradução Centrada no Usuário e da Teoria do Escopo de Vermeer, roteiros de AD têm sido construídos e submetidos 
-          à análise de intérpretes de Libras e consultores com deficiência visual para a validação dos parâmetros utilizados. 
-          A organização criteriosa dos elementos no roteiro, o emprego de comparações, o uso dos cinco parâmetros da Libras para nortear a AD, entre outras estratégias adotadas estão colaborando para a elaboração das audiodescrições.
-        </p>
+        <div class="Text">
+          <p>
+            Neste projeto desenvolvido em conjunto com o grupo PRO.SOM (Tradução, Processo de Criação e Mídias Sonoras)
+            nós visamos publicar,
+            gratuitamente, um livro multiformato impresso. Dentro desse livro haverá um QR code que vai levar a um
+            videolivro com recursos como narração, AD, legendas LSE e janela de Libras,
+            de modo a atender o vasto grupo de pessoas com dificuldade para acessar material impresso tradicional, como,
+            por exemplo, pessoas com dislexia ou com algum tipo de deficiência.
+            O Prince Lindworm é um conto do século XIX é originalmente norueguês e não possui direitos autorais.
+            O conto foi traduzido para o inglês por Svend Grundtvig e nós traduzimos para o português.
+            Porém, a história conta com duas versões: enquanto uma tradução está mais próxima do texto-fonte, a outra
+            tradução foi adaptada para o formato de Leitura Fácil (Easy Read).
+          </p>
+        </div>
+
       </div>
-      
-    </div>
-  </div>
+
+
+      <div class="Post">
+        <div class="Subtitle">
+          <h2>AD de Libras</h2>
+        </div>
+        <div class="Projects">
+          <div class="img">
+            <img src="assets/Projeto2.png" class="banner-projeto" alt="Banner do projeto “AD de Libras”" />
+          </div>
+          <div class="Text">
+            <p>
+              Considerando a escassez de estudos voltados para a audiodescrição (AD) de sinais em Língua Brasileira de
+              Sinais (Libras),
+              este projeto foi criado pelo grupo de pesquisa Tradução e Acessibilidade (TrAce) a fim de investigar o
+              processo de AD de três categorias de sinais da Libras:
+              sinais icônicos, sinais comuns e sinais complexos, para assim propor orientações que auxiliem na escrita
+              de ADs que atendam às necessidades de pessoas cegas e com baixa visão.
+              Contando com o suporte teórico da Tradução Audiovisual Acessível, da Tradução Centrada no Usuário e da
+              Teoria do Escopo de Vermeer, roteiros de AD têm sido construídos e submetidos
+              à análise de intérpretes de Libras e consultores com deficiência visual para a validação dos parâmetros
+              utilizados.
+              A organização criteriosa dos elementos no roteiro, o emprego de comparações, o uso dos cinco parâmetros da
+              Libras para nortear a AD, entre outras estratégias adotadas estão colaborando para a elaboração das
+              audiodescrições.
+            </p>
+          </div>
+
+        </div>
+      </div>
 
   </section>
 
@@ -103,31 +140,31 @@
     </div>
 
     <div class="Footer-texts">
-    <div class="Footer-text">
-      <H2>Copyright ©</H2>
-      <p>Tradução e Acessibilidade
-        Instituto de Letras da UFBA
-        Salvador, BA</p>
-    </div>
+      <div class="Footer-text">
+        <H2>Copyright ©</H2>
+        <p>Tradução e Acessibilidade
+          Instituto de Letras da UFBA
+          Salvador, BA</p>
+      </div>
 
-    <div class="Footer-text-2">
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Livro Multiformato</a></li>
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Produção de Janelas de Libras</a></li>
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">AD de Libras</a></li>
-    </div>
+      <div class="Footer-text-2">
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Livro Multiformato</a></li>
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Produção de Janelas de Libras</a></li>
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">AD de Libras</a></li>
+      </div>
 
-    <div class="Footer-text-3">
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Artigos</a></li>
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Livros</a></li>
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">TCCs</a></li>
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Dissertações</a></li>
-      <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Teses</a></li>
+      <div class="Footer-text-3">
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Artigos</a></li>
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Livros</a></li>
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">TCCs</a></li>
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Dissertações</a></li>
+        <li class="FOOTER-UL-LI"><a class="Footer-UL-LI-A" href="">Teses</a></li>
+      </div>
     </div>
-  </div>
   </section>
 
   <section id="Sub-footer">
-    <img class="sub-footer-logo" src="./assets/TrAce.svg" alt="Logo do TrAce"/>
+    <img class="sub-footer-logo" src="./assets/TrAce.svg" alt="Logo do TrAce" />
   </section>
 
 

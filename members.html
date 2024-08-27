@@ -1,310 +1,1198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-members.css" />
+    <script
+      src="https://kit.fontawesome.com/8492e63a54.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>TrAce - Membros</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="style-members.css" />
-  <script src="https://kit.fontawesome.com/8492e63a54.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <title>TrAce</title>
-</head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
-<body>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <section id="Header">
-    <div class="Header-Logo">
-      <img src="assets/TrAce.svg" alt="Logo do TrAce" />
-      <p></p>
-    </div>
-
-    <div class="Header-buttons">
-      <ul class="Header-UL">
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="index.html">INÍCIO</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="assets/TraceCards/index.html">TRACE</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">PROJETOS</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">TRABALHOS</a></li>
-        <li class="Header-UL-LI"><a class="Header-UL-LI-A" href="">CONTATO</a></li>
-    </ul>
-    </div>
-
-    <div class="Form">
-      <form>
-        <input type="search" placeholder="Search...">
-        <button type="submit">Search</button>
-      </form>
-    </div>
-  </section>
-  <section id="Members">
-
-    <div class="Title">
-        <h1>Conheça nossos membros</h1>
+    <section id="Header">
+      <div class="Header-Logo">
+        <img src="assets/TrAce.svg" alt="Logo do TrAce" />
+        <p></p>
       </div>
-  
+
+      <div class="Header-buttons">
+        <ul class="Header-UL">
+          <li class="Header-UL-LI">
+            <a class="Header-UL-LI-A" href="index.html">INÍCIO</a>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Sobre Nós</a>
+            <div class="dropdown-content">
+              <a class="Header-UL-LI-A" href="quem-somos.html">Quem Somos</a>
+              <a class="Header-UL-LI-A" href="members.html">MEMBROS</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">PROJETOS</a>
+            <div class="dropdown-content">
+              <a class="Header-UL-LI-A" href="projetos-livro-1.html"
+                >O Príncipe Lindworm</a
+              >
+              <a class="Header-UL-LI-A" href="projetos-livro-2.html">Livro 2</a>
+              <a class="Header-UL-LI-A" href="">AD de Libras</a>
+              <a class="Header-UL-LI-A" href="">Site</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">PRODUÇÕES</a>
+            <div class="dropdown-content">
+              <a class="Header-UL-LI-A" href="">ARTIGOS</a>
+              <a class="Header-UL-LI-A" href="">LIVROS</a>
+              <a class="Header-UL-LI-A" href="">TCCS</a>
+              <a class="Header-UL-LI-A" href="">DISSERTAÇÕES</a>
+              <a class="Header-UL-LI-A" href="">TESES</a>
+            </div>
+          </li>
+          <li class="Header-UL-LI">
+            <a class="Header-UL-LI-A" href="">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="Form">
+        <form>
+          <input type="search" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="introduction">
+      <a
+        >Olá, aqui você encontrará todos os integrantes do grupo TrAce,
+        incluindo membros e consultores, além daqueles que já passaram por aqui.
+        Você também encontrará informações como: áreas de interesse, currículo
+        lattes, linkedin e contato.
+        <p>
+          - Abaixo, fotos em preto e branco, até a altura do peito, dos membros
+          e consultores do grupo TrAce.
+        </p></a
+      >
+    </div>
+    <section id="Members">
+      <!--Orientadora-->
       <div class="Post">
         <div class="Subtitle">
-          <h2>Orientadoras</h2>
+          <h2>Orientadora</h2>
         </div>
+
+        <!--Manoela-->
         <div class="card-wrapper">
-            <div class="card-header">
-                <div class="pic">
-                    <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-                </div>
-                <h3 class="name">Manoela Cristina da Silva</h3>
-                <p class="title">Coordenadora do Grupo</p>
-                <p class="expertise">TAV e TAVA</p>
-                <div class="buttons">
-                    <div class="features">
-                        <ul>
-                            <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><i class="fa-brands fa-instagram"></i></li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="#" class="contact-btn">Contact Me</a>
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/ManoelaCristina.jpg"
+                alt=""
+              />
             </div>
-            
+            <h3 class="name">Manoela Cristina da Silva</h3>
+            <p class="title">Coordenadora do Grupo</p>
+            <p class="expertise">TAV, TAVA e Educação</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/1401867652891934"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#mcsilva@ufba.br" class="contact-btn">Contact Me</a>
+          </div>
         </div>
-        
       </div>
 
+      <!--Membros----------------------------------------------------------------->
       <div class="Post">
         <div class="Subtitle">
           <h2>Membros</h2>
         </div>
+
+        <!--Elaine-->
         <div class="card-wrapper">
-            <div class="card-header">
-                <div class="pic">
-                    <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-                </div>
-                <h3 class="name">Manoela Cristina da Silva</h3>
-                <p class="title">Coordenadora do Grupo</p>
-                <p class="expertise">TAV e TAVA</p>
-                <div class="buttons">
-                    <div class="features">
-                        <ul>
-                            <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><i class="fa-brands fa-instagram"></i></li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="#" class="contact-btn">Contact Me</a>
-            </div>
-
-  <div class="Post">
-    <div class="Subtitle">
-      <h2>Ouvintes</h2>
-    </div>
-    <div class="card-wrapper">
-        <div class="card-header">
+          <div class="card-header">
             <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
+              <img src="./assets/TraceCards/profile/ElaineSoares.jpg" alt="" />
             </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
+            <h3 class="name">Elaine Alves Soares</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">AD e LSE.</p>
             <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="urldolinkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/2866199030578367"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/elaine-alves-soares-6246981b0/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <a href="#" class="contact-btn">Contact Me</a>
-        </div>    
-        
-    </div>
-
-    <div class="card-wrapper">
-        <div class="card-header">
-            <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-            </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
-            <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="contact-btn">Contact Me</a>
-        </div>    
-        
-    </div>
-
-    <div class="card-wrapper">
-        <div class="card-header">
-            <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-            </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
-            <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="contact-btn">Contact Me</a>
-        </div>    
-        
-    </div>
-
-    <div class="card-wrapper">
-        <div class="card-header">
-            <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-            </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
-            <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="contact-btn">Contact Me</a>
-        </div>    
-        
-    </div>
-
-    <div class="card-wrapper">
-        <div class="card-header">
-            <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-            </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
-            <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="contact-btn">Contact Me</a>
-        </div>    
-        
-    </div>
-    
-  </div>
-
-  <div class="Post">
-    <div class="Subtitle">
-      <h2>Técnicos</h2>
-    </div>
-    <div class="card-wrapper">
-        <div class="card-header">
-            <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
-            </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
-            <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="contact-btn">Contact Me</a>
+            <a
+              href="#soares.elainealves@gmail.com
+            "
+              class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
         </div>
-        
-    </div>
 
-    <div class="card-wrapper">
-        <div class="card-header">
+        <!--Katherine-->
+        <div class="card-wrapper">
+          <div class="card-header">
             <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
+              <img
+                src="./assets/TraceCards/profile/KatherineZuanny.jpg"
+                alt=""
+              />
             </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
+            <h3 class="name">Katherine Zuanny</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAV e LSE</p>
             <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="urldolinkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/7383823297781730"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a
+              href="#katherinezuanny@gmail.com
+            "
+              class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Juliana-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/JulianaMadureira.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Juliana Madureira</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">AD e Liguagem Fácil</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a href="" target="_blank"><i class="ai ai-lattes"></i></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <a href="#" class="contact-btn">Contact Me</a>
+          </div>
         </div>
-        
-    </div>
 
-    <div class="card-wrapper">
-        <div class="card-header">
+        <!--Anna Paula-->
+        <div class="card-wrapper">
+          <div class="card-header">
             <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
+              <img src="./assets/TraceCards/profile/AnnaPaula.jpg" alt="" />
             </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
+            <h3 class="name">Anna Paula Mello</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">AD e Liguagem Fácil</p>
             <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/5463062750994503"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/anna-paula-mello-9171b3193"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <a href="#" class="contact-btn">Contact Me</a>
+          </div>
         </div>
-        
-    </div>
 
-    <div class="card-wrapper">
-        <div class="card-header">
+        <!--Giovanna Neri-->
+        <div class="card-wrapper">
+          <div class="card-header">
             <div class="pic">
-                <img src="./assets/TraceCards/profile/Manoela.gif" alt=""/>
+              <img src="./assets/TraceCards/profile/GiovannaNeri.jpg" alt="" />
             </div>
-            <h3 class="name">Manoela Cristina da Silva</h3>
-            <p class="title">Coordenadora do Grupo</p>
-            <p class="expertise">TAV e TAVA</p>
+            <h3 class="name">Giovanna Neri</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">AD e Leitura Fácil</p>
             <div class="buttons">
-                <div class="features">
-                    <ul>
-                        <li><a href="http://lattes.cnpq.br/1401867652891934" target="_blank"><i class="ai ai-lattes"></i></a></li>
-                        <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/2074696709712598"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <a href="#" class="contact-btn">Contact Me</a>
+          </div>
         </div>
-        
-    </div>
-  </section>
 
-</body>
+        <!--Grasiele-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/GrasieleLima.jpg" alt="" />
+            </div>
+            <h3 class="name">Grasiele Lima</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAVA, Linguagem Simples e Linguagem Fácil</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/4281196963694248"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#limagrasiele71@gmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Jamine-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/JamineDourado.jpg" alt="" />
+            </div>
+            <h3 class="name">Jamine Dourado</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAVA</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="https://lattes.cnpq.br/2904737223671519"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://linkedin.com/in/jamine-dourado-73b48586"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a
+              href="#jaminedourado@gmail.com
+            "
+              class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Camila Santos-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/CamilaSantos.jpg" alt="" />
+            </div>
+            <h3 class="name">Camila Santos</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAVA e Localização</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/5228475850537027"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#sants15camila@gmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Camila Rocha-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/CamilaRocha.jpg" alt="" />
+            </div>
+            <h3 class="name">Camila Rocha</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">AD e LSE.</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/4366647634177077"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#rocha.camilabastos@gmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Laiz-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/LaizMunire.jpg" alt="" />
+            </div>
+            <h3 class="name">Laiz Costa</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">
+              TAVA, Linguagem Simples, Linguagem Fácil e Educação
+            </p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/0756279950726526"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="linkedin.com/in/laiz-munire-7837b351"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#laizmunire@yahoo.com.br" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Matheus-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/MatheusGonçalves.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Matheus Gonçalves</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAVA e Localização</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/8779703570696831
+                    "
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Fernanda Costa-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/FernandaCosta.jpg" alt="" />
+            </div>
+            <h3 class="name">Fernanda Costa</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAV e LSE</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/4443628036930956"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/fernanda-costa-tradutora-e-revisora/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#fernanda.gois@ufba.br" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Fernanda Farias-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/FernandaFarias.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Fernanda Farias</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">
+              Tradução Literária, Linguagem Simples e Linguagem Fácil
+            </p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="https://lattes.cnpq.br/6471686282889470"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/fernanda-farias-a39a7a263/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#f.farias@ufba.br" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Amanda-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/AmandaHora.jpg" alt="" />
+            </div>
+            <h3 class="name">Amanda Hora da Silva</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAVA, Legendagem e Tradução Técnica</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/9524847623967215"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/amanda-hora-5b4917205/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Luna-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/LunaPirahy.jpg" alt="" />
+            </div>
+            <h3 class="name">Luna Pirahy</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAV, Legendagem e Localização</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/6600185271137764"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/lunapirahy"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#luna.pirahy@ufba.br" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Leticia-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/LetíciaPimentel.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Leticia Pimentel</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAV, TAVA, Legendagem e Linguagem Simples</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="https://lattes.cnpq.br/4189743420534031"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/pimentelsilva/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Kleysa-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/KleysaRodrigues.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Kleysa Rodrigues</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAV, LSE e Tradução Intersemiótica</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/3232683152857678"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/kleysa-rodrigues-da-silva-1249a7173?trk=contact-info"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Vinicius-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/ViniciusFerreira.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Vinicius Ferreira</h3>
+            <p class="title">Membro</p>
+            <p class="expertise">TAVA e Localização</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a href="" target="_blank"><i class="ai ai-lattes"></i></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--André-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/AndréAlexandrino.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">André Alexandrino Ribeiro</h3>
+            <p class="title">Ouvinte</p>
+            <p class="expertise">Localização</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/0372458143624272"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#andrealexandrinoribeiro@gmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Giulia-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/GiuliaGordiano.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Giulia Gordiano</h3>
+            <p class="title">Ouvinte</p>
+            <p class="expertise">TAVA, Tradução Literária e Linguagem Fácil</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="https://lattes.cnpq.br/9040892091044954"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.linkedin.com/in/giuliagordiano"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#profgiuliagordiano@gmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Luciana-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/LucianaCupertino.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Luciana Cupertino</h3>
+            <p class="title">Ouvinte</p>
+            <p class="expertise">Tradução intersemiótica</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="https://lattes.cnpq.br/8224422287187566"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#luciana.vitoria@ufba.br" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Marcele-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/MarceleBarreto.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Marcele Vitória</h3>
+            <p class="title">Ouvinte</p>
+            <p class="expertise">
+              TAV, AD, Linguagem Simples e Linguagem Fácil
+            </p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a href="" target="_blank"><i class="ai ai-lattes"></i></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/marcele-barreto-97370b2ab/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#marcele.vsb@hotmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!--Técnicos-------------------------------------------------------------------->
+      <div class="Post">
+        <div class="Subtitle">
+          <h2>Técnicos</h2>
+        </div>
+
+        <!--Carlota-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/CarlotaPires.jpg" alt="" />
+            </div>
+            <h3 class="name">Carlota Pires</h3>
+            <p class="title">Consultora em AD</p>
+            <p class="expertise">AD</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/9458483617212817"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#carlenpires@hotmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Gabriel-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/GabrielSizinio.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Gabriel Sizinio</h3>
+            <p class="title">Consultor</p>
+            <p class="expertise">Desenvolvimento Web</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/4631939124490539"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--João-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/JoaoBispo.jpg" alt="" />
+            </div>
+            <h3 class="name">João Bispo</h3>
+            <p class="title">Consultor AD</p>
+            <p class="expertise">Tradução e Interpretação de Libras</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="https://lattes.cnpq.br/0643596293151295"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#johnbispo.ssa@gmail.com" class="contact-btn"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!--Thalita-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/ThalitaAraujo.jpg" alt="" />
+            </div>
+            <h3 class="name">Thalita Araújo</h3>
+            <p class="title">Consultora</p>
+            <p class="expertise">Tradução e interpretação da Libras</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/2006579414085234"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#thalitaraujo@gmail.com" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Vanessa-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/VanessaMoura.jpg" alt="" />
+            </div>
+            <h3 class="name">Vanessa Moura</h3>
+            <p class="title">Consultora</p>
+            <p class="expertise">Tradução e Interpretação de Libras</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a
+                      href="http://lattes.cnpq.br/6709804830410673"
+                      target="_blank"
+                      ><i class="ai ai-lattes"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#moura.vanessa@ufba.br" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Ednilson-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img
+                src="./assets/TraceCards/profile/EdnilsonSacramento.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="name">Ednilson Sacramento</h3>
+            <p class="title">Consultor AD</p>
+            <p class="expertise">AD</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a href="" target="_blank"><i class="ai ai-lattes"></i></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/ednilson-sacramento-53b83bb8/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                      target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <!--Consultor Final-->
+        <div class="card-wrapper">
+          <div class="card-header">
+            <div class="pic">
+              <img src="./assets/TraceCards/profile/" alt="" />
+            </div>
+            <h3 class="name">Manoel Negraes</h3>
+            <p class="title">Consultor</p>
+            <p class="expertise">-</p>
+            <div class="buttons">
+              <div class="features">
+                <ul>
+                  <li>
+                    <a href="" target="_blank"><i class="ai ai-lattes"></i></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="contact-btn">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Footer">
+      <div class="Footer-Titles">
+        <h1>TRACE</h1>
+        <h1>PROJETOS</h1>
+        <h1>PRODUÇÕES</h1>
+      </div>
+
+      <div class="Footer-texts">
+        <div class="Footer-text">
+          <h2>Copyright ©</h2>
+          <p>
+            Tradução e Acessibilidade Instituto de Letras da UFBA Salvador, BA
+          </p>
+        </div>
+
+        <div class="Footer-text-2">
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">Livro Multiformato</a>
+          </li>
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">Produção de Janelas de Libras</a>
+          </li>
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">AD de Libras</a>
+          </li>
+        </div>
+
+        <div class="Footer-text-3">
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">Artigos</a>
+          </li>
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">Livros</a>
+          </li>
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">TCCs</a>
+          </li>
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">Dissertações</a>
+          </li>
+          <li class="FOOTER-UL-LI">
+            <a class="Footer-UL-LI-A" href="">Teses</a>
+          </li>
+        </div>
+      </div>
+    </section>
+
+    <section id="Sub-footer">
+      <img
+        class="sub-footer-logo"
+        src="./assets/TrAce.svg"
+        alt="Logo do TrAce"
+      />
+    </section>
+  </body>
 </html>
