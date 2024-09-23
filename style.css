@@ -150,8 +150,14 @@ input[type="search"]::placeholder {
 
 .Post {
   box-sizing: border-box;
+
 }
 
+.Post-certificate{
+  box-sizing: border-box;
+  margin-bottom: 10em;
+  margin-left: 5em;
+}
 .Title {
   color: #088884;
   font-family: Inter;
