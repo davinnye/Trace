@@ -1,26 +1,17 @@
-async function saveCertificate (cpf) {
-    const url = 'http://localhost:8080/certificates';
-
-    const data = {
-        value: cpf
-    };
-
-    try {
-        const response = await fetch(url, {
-            method: 'POST',
-            headers: {
-                'string': 'cpf',
-            },
-            body: JSON.stringify(data)
-        });
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const result = await response.json();
-        console.log('Success:', result);
-    } catch (error) {
-        console.error('Error:', error);
+async function saveCertificate() {
+  
+  const url = "http://localhost:8080/certificates?cpf=" + document.getElementById('cpf').value;
+  try {
+    const response = await fetch(url, { method: 'POST' });
+    if (!response.ok) {
+      // @TODO: Tratar erros.
+      throw new Error(`Response status: ${response.status}`);
     }
+
+    const json = await response.json();
+    console.log(json);
+  } catch (error) {
+    // @TODO: Tratar erros.
+    console.error(error.message);
+  }
 }
