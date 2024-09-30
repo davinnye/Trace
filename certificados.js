@@ -1,6 +1,6 @@
 async function saveCertificate() {
   
-  const url = "http://ec2-15-229-35-192.sa-east-1.compute.amazonaws.com/certificates?cpf=" + document.getElementById('cpf').value;
+  const url = "https://ec2-15-229-35-192.sa-east-1.compute.amazonaws.com/certificates?cpf=" + document.getElementById('cpf').value;
   try {
     const response = await fetch(url, { method: 'POST' });
     if (!response.ok) {
