@@ -10,6 +10,9 @@ async function saveCertificate() {
 
     const json = await response.json();
     console.log(json);
+    const responseDiv = document.getElementById('response');
+    responseDiv.innerHTML = json.code;
+
   } catch (error) {
     // @TODO: Tratar erros.
     console.error(error.message);
