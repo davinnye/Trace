@@ -63,6 +63,18 @@ hr {
   margin-bottom: 120px;
   padding-right: 250px;
 }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 .download-button {
   color: white;
   background-color: #088884;
